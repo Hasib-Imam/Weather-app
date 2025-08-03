@@ -1,0 +1,57 @@
+.Square{
+  width:300px;
+  height: 400px;
+  padding:100px;
+  justify-content: center;
+
+}
+.container{
+   width:400px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display:flex;
+  flex-direction: column;
+  
+  
+  padding-left:1000px;
+  padding-right: 1000px;
+  padding-bottom:30px;
+  display: flex;
+  background:green;
+  margin:15px;
+  padding:20px ;
+  padding-bottom:30px;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  align-items: center;
+
+
+}
+.App{
+  width:400px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display:flex;
+  flex-direction: column;
+}
+.Square p{
+  text-align: center;
+}
+.Nav{
+  
+  
+
+}
+.nav a{
+  display:flex;
+  gap: 50px;
+  margin: left 40px;
+  font-weight:500;
+  position: relative;
+
+
+}
+.Nav ul{
+   text-decoration: none;
+}
